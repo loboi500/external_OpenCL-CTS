@@ -1,14 +1,3 @@
-set(MODULE_NAME PROFILING)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    readArray.cpp
-    writeArray.cpp
-    readImage.cpp
-    writeImage.cpp
-    copy.cpp
-    execute.cpp
-    execute_multipass.cpp
-)
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fe494ae7f9373afc507fdd3f4e43460958536332086362410381322410e155c
+size 228

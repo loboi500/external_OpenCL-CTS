@@ -1,11 +1,3 @@
-set(MODULE_NAME HALF)
-
-set(${MODULE_NAME}_SOURCES
-        cl_utils.cpp
-        Test_vLoadHalf.cpp
-        Test_roundTrip.cpp
-        Test_vStoreHalf.cpp main.cpp
-)
-
-include(../CMakeCommon.txt)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:313378cf7a37abbf93d2bc46ae00642dc5a3a2de2dbaf6ca11d87f04ffecd0bd
+size 194

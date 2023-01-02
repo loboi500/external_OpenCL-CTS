@@ -1,19 +1,3 @@
-set(MODULE_NAME WORKGROUPS)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_wg_all.cpp
-    test_wg_any.cpp
-    test_wg_broadcast.cpp
-    test_wg_reduce.cpp
-    test_wg_reduce_max.cpp
-    test_wg_reduce_min.cpp
-    test_wg_scan_exclusive_add.cpp
-    test_wg_scan_exclusive_min.cpp
-    test_wg_scan_exclusive_max.cpp
-    test_wg_scan_inclusive_add.cpp
-    test_wg_scan_inclusive_min.cpp
-    test_wg_scan_inclusive_max.cpp
-)
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4fb007bb035e07264266468887d87e55c630992457661ca3c89929df42babd3
+size 453

@@ -1,13 +1,3 @@
-set(MODULE_NAME CL_GET_INFO)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_1D_2D_array.cpp
-    test_1D.cpp
-    test_2D.cpp
-    test_loops.cpp
-    test_3D.cpp
-    ../common.cpp
-)
-
-include(../../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a343e46169f03efe5ecf6c9d654467586284fb036b6a90b946705f946afa769a
+size 214

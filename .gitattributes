@@ -1,0 +1,13 @@
+METADATA filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+scripts filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+CMakeLists.txt filter=lfs diff=lfs merge=lfs -text
+CODE_OF_CONDUCT.md filter=lfs diff=lfs merge=lfs -text
+dependencies filter=lfs diff=lfs merge=lfs -text
+LICENSE.txt filter=lfs diff=lfs merge=lfs -text
+check-format.sh filter=lfs diff=lfs merge=lfs -text
+presubmit.sh filter=lfs diff=lfs merge=lfs -text
+readme-spir-v-binaries.txt filter=lfs diff=lfs merge=lfs -text
+test_common filter=lfs diff=lfs merge=lfs -text
+test_conformance filter=lfs diff=lfs merge=lfs -text

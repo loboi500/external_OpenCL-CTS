@@ -1,25 +1,3 @@
-if(WIN32)
-list(APPEND CLConform_LIBRARIES d3d9.lib dxva2.lib )
-set(MODULE_NAME MEDIA_SURFACE_SHARING)
-
-set(${MODULE_NAME}_SOURCES
-        main.cpp
-        wrappers.cpp
-        utils.cpp
-        test_create_context.cpp
-        test_functions_api.cpp
-        test_functions_kernel.cpp
-        test_get_device_ids.cpp
-        test_interop_sync.cpp
-        test_memory_access.cpp
-        test_other_data_types.cpp
-    )
-
-set_source_files_properties(
-        ${MODULE_NAME}_SOURCES
-        PROPERTIES LANGUAGE CXX)
-
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-
-include(../../CMakeCommon.txt)
-endif(WIN32)
+version https://git-lfs.github.com/spec/v1
+oid sha256:cecc4196725671054412ab366cb7b605414189ad23fd6a317b4b14ce1418c7a5
+size 605

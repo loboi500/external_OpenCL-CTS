@@ -1,17 +1,3 @@
-set(MODULE_NAME INTEGER_OPS)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_int_basic_ops.cpp
-    test_integers.cpp
-    test_upsample.cpp
-    test_intmul24.cpp test_intmad24.cpp
-    test_sub_sat.cpp test_add_sat.cpp
-    test_abs.cpp test_absdiff.cpp
-    test_unary_ops.cpp
-    verification_and_generation_functions.cpp
-    test_popcount.cpp
-)
-
-include(../CMakeCommon.txt)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8918b6d6185dd9833b17293b8849827f7946b2e2d0a850408ff37465698be392
+size 376

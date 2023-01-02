@@ -1,20 +1,3 @@
-set(MODULE_NAME SUBGROUPS)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_barrier.cpp
-    test_queries.cpp
-    test_workitem.cpp
-    test_subgroup.cpp
-    test_ifp.cpp
-    test_subgroup_extended_types.cpp
-    subgroup_common_kernels.cpp
-    test_subgroup_non_uniform_vote.cpp
-    test_subgroup_non_uniform_arithmetic.cpp
-    test_subgroup_ballot.cpp
-    test_subgroup_clustered_reduce.cpp
-    test_subgroup_shuffle.cpp
-    test_subgroup_shuffle_relative.cpp
-)
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e65f57ca901f2ce26e136263c8ae5c9cd6610342c27f34131270e9be96399972
+size 492

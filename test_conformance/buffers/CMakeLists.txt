@@ -1,17 +1,3 @@
-set(MODULE_NAME BUFFERS)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_buffer_copy.cpp
-    test_buffer_read.cpp
-    test_buffer_write.cpp
-    test_buffer_mem.cpp
-    array_info.cpp
-    test_buffer_map.cpp
-    test_sub_buffers.cpp
-    test_buffer_fill.cpp
-    test_buffer_migrate.cpp
-    test_image_migrate.cpp
-)
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4abc77b1aebe3b6afa31f4ce48c7c7f608010b74a3abaa9dc08342b325886adf
+size 345

@@ -1,19 +1,3 @@
-set(MODULE_NAME CONVERSIONS)
-
-set (${MODULE_NAME}_SOURCES
-      Sleep.cpp test_conversions.cpp basic_test_conversions.cpp
-)
-
-if("${CLConform_TARGET_ARCH}" STREQUAL "ARM" OR "${CLConform_TARGET_ARCH}" STREQUAL "ARM64")
-    list(APPEND ${MODULE_NAME}_SOURCES fplib.cpp)
-endif()
-
-if(NOT CMAKE_CL_64 AND NOT MSVC AND NOT ANDROID)
-# -march is needed for CPU atomics, default arch on gcc is i386
-# that does not support atomics.
-set_source_files_properties(
-        ${MODULE_NAME}_SOURCES
-        COMPILE_FLAGS -march=i686)
-endif(NOT CMAKE_CL_64 AND NOT MSVC AND NOT ANDROID)
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:463387162843a84c99fa1c4b9167e8a289fbd0d5556173a30202653d8b004bdb
+size 599

@@ -1,22 +1,3 @@
-set(MODULE_NAME DEVICE_EXECUTION)
-
-set(DEVICE_EXECUTION_SOURCES
-    device_info.cpp
-    device_queue.cpp
-    enqueue_block.cpp
-    enqueue_flags.cpp
-    enqueue_multi_queue.cpp
-    enqueue_ndrange.cpp
-    enqueue_wg_size.cpp
-    enqueue_profiling.cpp
-    execute_block.cpp
-    host_multi_queue.cpp
-    host_queue_order.cpp
-    main.cpp
-    nested_blocks.cpp
-    utils.cpp
-)
-
-include(../CMakeCommon.txt)
-
-# end of file #
+version https://git-lfs.github.com/spec/v1
+oid sha256:07ce1c18eb4526fe1459371d7c5df34c0e427bbc4379e54c265abebadc329060
+size 420

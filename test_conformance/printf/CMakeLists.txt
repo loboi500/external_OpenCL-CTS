@@ -1,10 +1,3 @@
-set(MODULE_NAME PRINTF)
-
-set(CMAKE_CXX_STANDARD 11)
-
-set(${MODULE_NAME}_SOURCES
-         test_printf.cpp
-         util_printf.cpp
-         )
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1e466dd9a17519f79e316c5626cb7ffcbf304cf5b16ba45406e4acb8c11781d
+size 170

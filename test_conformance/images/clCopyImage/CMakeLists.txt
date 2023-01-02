@@ -1,19 +1,3 @@
-set(MODULE_NAME CL_COPY_IMAGES)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_copy_1D.cpp
-    test_copy_1D_array.cpp
-    test_copy_2D.cpp
-    test_copy_2D_2D_array.cpp
-    test_copy_2D_3D.cpp
-    test_copy_2D_array.cpp
-    test_copy_3D.cpp
-    test_copy_3D_2D_array.cpp
-    test_copy_generic.cpp
-    test_loops.cpp
-    ../common.cpp
-)
-
-include(../../CMakeCommon.txt)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:dae4483c0ef1e3125071dd3f11d9217bd1a7cb31a7c73f30f95b2677c79ae711
+size 372

@@ -1,18 +1,3 @@
-
-set(MODULE_NAME CL_FILL_IMAGES)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_fill_1D.cpp
-    test_fill_1D_array.cpp
-    test_fill_2D.cpp
-    test_fill_2D_array.cpp
-    test_fill_generic.cpp
-    test_loops.cpp
-    test_fill_3D.cpp
-#    test_fill_2D_3D.cpp
-    ../common.cpp
-)
-
-
-include(../../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fd389d1154ea148005fcc0f55d652d91da3f9d7c9aab01d4e8810a0ee1c5dbe
+size 314

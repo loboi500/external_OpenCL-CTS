@@ -1,12 +1,3 @@
-set(MODULE_NAME GENERIC_ADDRESS_SPACE)
-
-set(${MODULE_NAME}_SOURCES
-    advanced_tests.cpp
-    basic_tests.cpp
-    main.cpp
-    stress_tests.cpp
-)
-
-include(../CMakeCommon.txt)
-
-# end of file #
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b6dee7ca8c4a2002874cda5d9fac793f0b9a7469bbac625111a2e9b6ae60e7e
+size 192

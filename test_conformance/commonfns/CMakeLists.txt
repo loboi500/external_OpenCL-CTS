@@ -1,25 +1,3 @@
-set(MODULE_NAME COMMONFNS)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_clamp.cpp
-    test_degrees.cpp
-    test_max.cpp
-    test_maxf.cpp
-    test_min.cpp
-    test_minf.cpp
-    test_mix.cpp
-    test_radians.cpp
-    test_step.cpp
-    test_stepf.cpp
-    test_smoothstep.cpp
-    test_smoothstepf.cpp
-    test_sign.cpp
-    test_fmax.cpp
-    test_fmin.cpp
-    test_fmaxf.cpp
-    test_fminf.cpp
-    test_binary_fn.cpp
-)
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:83a0118fb146e171512d978029e275c257b356a87f1b0e4f0687657d4989cc98
+size 448

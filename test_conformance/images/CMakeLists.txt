@@ -1,15 +1,3 @@
-if(NOT MSVC)
-# IGL: Force no optimizations
-set(CMAKE_C_FLAGS_RELEASE "-O0")
-set(CMAKE_CXX_FLAGS_RELEASE "-O0")
-endif(NOT MSVC)
-
-add_subdirectory(clCopyImage)
-add_subdirectory(clFillImage)
-add_subdirectory(clGetInfo)
-add_subdirectory(clReadWriteImage)
-add_subdirectory(kernel_image_methods)
-add_subdirectory(kernel_read_write)
-add_subdirectory(samplerlessReads)
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d61b47d6c247714597bb21c13d99bb25bb924532c5700b9d1e81c68c025b5ba5
+size 363

@@ -1,9 +1,3 @@
-set(MODULE_NAME MEM_HOST_FLAGS)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    mem_host_buffer.cpp
-    mem_host_image.cpp
-)
-
-include(../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:c99b09aaa3c4af235c267088bc40167c142089b61e997107add9c4b8084b6970
+size 151

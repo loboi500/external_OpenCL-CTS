@@ -1,14 +1,3 @@
-set(MODULE_NAME KERNEL_IMAGE_METHODS)
-
-set(${MODULE_NAME}_SOURCES
-    main.cpp
-    test_1D.cpp
-    test_1D_array.cpp
-    test_2D.cpp
-    test_2D_array.cpp
-    test_loops.cpp
-    test_3D.cpp
-    ../common.cpp
-)
-
-include(../../CMakeCommon.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce7712e27bf4446d2c48ad7f12717a2e591f65d3b3013fe1d673d015234ad45
+size 242
